@@ -9,8 +9,8 @@ export default function Footer() {
           <div>
             <h3 className="font-medium text-gray-900 mb-3">Jeevora</h3>
             <p className="text-gray-600">
-              Your trusted digital healthcare companion – connecting patients
-              with doctors, managing records, and enabling secure payments.
+              Your trusted marketplace – connecting buyers and sellers,
+              providing a wide range of products, and enabling secure payments.
             </p>
           </div>
 
@@ -30,12 +30,15 @@ export default function Footer() {
             >
               Privacy Policy
             </Link>
+            <br></br>
             <Link
               to="/terms-conditions"
               className="text-gray-600 hover:text-primary-600 transition-colors"
             >
               Terms & Conditions
             </Link>
+            <br></br>
+
             <Link
               to="/refund-policy"
               className="text-gray-600 hover:text-primary-600 transition-colors"
@@ -46,10 +49,10 @@ export default function Footer() {
 
           <div className="space-y-2">
             <p className="font-medium text-gray-900 mb-2">Contact</p>
-            <p className="text-gray-600">support@jeevora.com</p>
-            <p className="text-gray-600">+91-9999999999</p>
+            <p className="text-gray-600">dev1604karan@gmail.com</p>
+            <p className="text-gray-600">+91-8868019315</p>
             <p className="text-gray-600">
-              123 Health Street, Bengaluru, Karnataka 560001, India
+              Alliance, Rudrapur, Uttarakhand - 263153, India
             </p>
           </div>
         </div>

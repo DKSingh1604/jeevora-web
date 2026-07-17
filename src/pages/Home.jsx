@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Sparkles, HeartPulse, FileText, CreditCard, ArrowRightLeft } from "lucide-react";
+import { ShoppingBag, ShieldCheck, Truck, RefreshCw, ArrowRightLeft } from "lucide-react";
 
 export default function Home() {
   return (
@@ -9,19 +9,17 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl mb-6">
-              Jeevora – Your Digital Healthcare Companion
+              Jeevora – Your Ultimate Marketplace
             </h1>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              Seamlessly book appointments, consult online, manage your medical
-              history, receive digital prescriptions, and make secure payments –
-              all from the comfort of your home.
+              The smartest way to buy and sell items online. Connect with thousands of verified buyers and sellers, discover unique products, and enjoy secure transactions all in one place.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link
                 to="/contact"
                 className="inline-flex items-center px-6 py-3 bg-primary-600 text-white font-medium rounded-md shadow-sm hover:bg-primary-700 transition-colors"
               >
-                Get Started
+                Start Selling Today
                 <ArrowRightLeft className="ml-2 h-4 w-4" />
               </Link>
               <Link
@@ -51,42 +49,42 @@ export default function Home() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-12 text-center">
-            How Jeevora Works
+            Why Choose Jeevora?
           </h2>
-          <div className="grid gap-8 md:grid-cols-3">
+          <div className="grid gap-8 md:grid-cols-4">
             {/* Feature 1 */}
             <div className="flex flex-col items-center text-center p-6 border rounded-lg hover:shadow-lg transition-shadow">
-              <Sparkles className="h-10 w-10 mb-4 text-primary-500" />
-              <h3 className="font-semibold text-gray-900 mb-2">Book Appointments</h3>
-              <p className="text-gray-600">
-                Find specialists, view availability, and schedule visits instantly.
+              <ShoppingBag className="h-10 w-10 mb-4 text-primary-500" />
+              <h3 className="font-semibold text-gray-900 mb-2">Vast Selection</h3>
+              <p className="text-gray-600 text-sm">
+                Discover a wide range of products from electronics to fashion, listed by sellers worldwide.
               </p>
             </div>
 
             {/* Feature 2 */}
             <div className="flex flex-col items-center text-center p-6 border rounded-lg hover:shadow-lg transition-shadow">
-              <HeartPulse className="h-10 w-10 mb-4 text-primary-500" />
-              <h3 className="font-semibold text-gray-900 mb-2">Online Consultations</h3>
-              <p className="text-gray-600">
-                Video calls with doctors, prescription sharing, and follow‑up reminders.
+              <ShieldCheck className="h-10 w-10 mb-4 text-primary-500" />
+              <h3 className="font-semibold text-gray-900 mb-2">Secure Payments</h3>
+              <p className="text-gray-600 text-sm">
+                Your money is safe. We use Razorpay to ensure all transactions are secure and encrypted.
               </p>
             </div>
 
             {/* Feature 3 */}
             <div className="flex flex-col items-center text-center p-6 border rounded-lg hover:shadow-lg transition-shadow">
-              <FileText className="h-10 w-10 mb-4 text-primary-500" />
-              <h3 className="font-semibold text-gray-900 mb-2">Digital Health Records</h3>
-              <p className="text-gray-600">
-                Upload reports, track conditions, and keep a secure longitudinal history.
+              <Truck className="h-10 w-10 mb-4 text-primary-500" />
+              <h3 className="font-semibold text-gray-900 mb-2">Reliable Shipping</h3>
+              <p className="text-gray-600 text-sm">
+                Integrated logistics ensure your products are delivered safely and on time.
               </p>
             </div>
 
             {/* Feature 4 */}
             <div className="flex flex-col items-center text-center p-6 border rounded-lg hover:shadow-lg transition-shadow">
-              <CreditCard className="h-10 w-10 mb-4 text-primary-500" />
-              <h3 className="font-semibold text-gray-900 mb-2">Secure Payments</h3>
-              <p className="text-gray-600">
-                Razorpay‑powered checkout for consultations, lab tests, and more.
+              <RefreshCw className="h-10 w-10 mb-4 text-primary-500" />
+              <h3 className="font-semibold text-gray-900 mb-2">Easy Returns</h3>
+              <p className="text-gray-600 text-sm">
+                Not satisfied? Our seamless return policy makes it easy to send items back.
               </p>
             </div>
           </div>
@@ -97,16 +95,16 @@ export default function Home() {
       <section className="bg-primary-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-primary-800 mb-6">
-            Ready to experience better healthcare?
+            Ready to join the marketplace?
           </h2>
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
-            Join thousands of patients who trust Jeevora for their medical needs.
+            Whether you want to declutter your home or find amazing deals, Jeevora is the perfect place to start.
           </p>
           <Link
             to="/contact"
             className="inline-flex items-center px-6 py-3 bg-primary-600 text-white font-medium rounded-md shadow-sm hover:bg-primary-700 transition-colors"
           >
-            Contact Us
+            Get in Touch
             <ArrowRightLeft className="ml-2 h-4 w-4" />
           </Link>
         </div>

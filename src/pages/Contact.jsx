@@ -13,7 +13,7 @@ export default function Contact() {
               </svg>
               <div>
                 <h3 className="font-medium text-gray-900">Email</h3>
-                <p className="text-gray-600">support@jeevora.com</p>
+                <p className="text-gray-600">dev1604karan@gmail.com</p>
               </div>
             </div>
 
@@ -23,7 +23,7 @@ export default function Contact() {
               </svg>
               <div>
                 <h3 className="font-medium text-gray-900">Phone</h3>
-                <p className="text-gray-600">+91-9999999999</p>
+                <p className="text-gray-600">+91-8868019315</p>
               </div>
             </div>
 
@@ -34,15 +34,15 @@ export default function Contact() {
               <div>
                 <h3 className="font-medium text-gray-900">Operating Address</h3>
                 <p className="text-gray-600">
-                  123 Health Street, Bengaluru<br />
-                  Karnataka 560001, India
+                  Alliance, Rudrapur<br />
+                  Uttarakhand 263153, India
                 </p>
               </div>
             </div>
           </div>
 
           {/* Simple contact form (stub) */}
-          <form className="space-y-6 bg-gray-50 p-6 rounded-lg">
+          {/* <form className="space-y-6 bg-gray-50 p-6 rounded-lg">
             <div className="space-y-3">
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                 Full Name
@@ -85,7 +85,7 @@ export default function Contact() {
             >
               Send Message
             </button>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>

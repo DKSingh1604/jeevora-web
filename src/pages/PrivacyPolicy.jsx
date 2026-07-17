@@ -2,109 +2,51 @@ export default function PrivacyPolicy() {
   return (
     <section className="py-20 bg-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-6">Privacy Policy</h1>
-        <p className="text-gray-600 mb-4">
-          Effective Date: <span className="font-medium">July 11, 2026</span>
-        </p>
+        <h1 className="text-3xl font-bold text-gray-900 mb-8">Privacy Policy</h1>
 
-        <div className="prose prose-sm max-w-none text-gray-700">
-          <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">1. Information We Collect</h2>
-          <p>
-            Jeevora collects personal data necessary to provide our telemedicine
-            services, including:
+        <div className="prose prose-sm sm:prose text-gray-600">
+          <p className="mb-4">
+            <strong>Last Updated: {new Date().toLocaleDateString()}</strong>
           </p>
-          <ul className="list-disc list-inside mt-2 mb-4">
-            <li>
-              Contact details (name, email, phone number) for account creation
-              and communication.
-            </li>
-            <li>
-              Health‑related information (medical history, uploaded reports,
-              diagnoses, prescriptions) stored securely in your Digital Health
-              Locker.
-            </li>
-            <li>
-              Payment details (tokenized via Razorpay) – we do not store full
-              card numbers.
-            </li>
-            <li>
-              Usage data (app interactions, device type, IP address) to improve
-              service quality and security.
-            </li>
+          <p>
+            At Jeevora, accessible from www.jeevora.com, one of our main priorities is the privacy of our visitors and users. This Privacy Policy document contains types of information that is collected and recorded by Jeevora and how we use it.
+          </p>
+
+          <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">1. Information We Collect</h3>
+          <p>
+            We collect personal information that you voluntarily provide to us when you register on the marketplace, express an interest in obtaining information about us or our products and services, or otherwise when you contact us. This includes:
+          </p>
+          <ul className="list-disc pl-5 mb-4">
+            <li><strong>Personal details:</strong> Name, email address, phone number, and physical address for shipping.</li>
+            <li><strong>Payment information:</strong> Payment details are securely processed by Razorpay. We do not store full credit card numbers on our servers.</li>
+            <li><strong>Transaction data:</strong> Order history, items purchased or sold, and communications between buyers and sellers.</li>
           </ul>
 
-          <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">2. How We Use Your Data</h2>
+          <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">2. How We Use Your Information</h3>
           <p>
-            We use the collected information to:
+            We use the information we collect in various ways, including to:
           </p>
-          <ul className="list-disc list-inside mt-2 mb-4">
-            <li>Facilitate appointment booking and video consultations.</li>
-            <li>Maintain and update your electronic health records.</li>
-            <li>Process payments for services rendered.</li>
-            <li>Send appointment reminders, health tips, and service updates.</li>
-            <li>Ensure the security and integrity of our platform.</li>
-            <li>Comply with legal obligations and respond to legal requests.</li>
+          <ul className="list-disc pl-5 mb-4">
+            <li>Provide, operate, and maintain our marketplace.</li>
+            <li>Process transactions and send related information, including order confirmations and invoices.</li>
+            <li>Improve, personalize, and expand our website features.</li>
+            <li>Understand and analyze how you use our website.</li>
+            <li>Communicate with you for customer service, updates, and marketing purposes.</li>
+            <li>Find and prevent fraud to ensure a secure trading environment.</li>
           </ul>
 
-          <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">3. Data Sharing & Disclosure</h2>
+          <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">3. Sharing Your Information</h3>
           <p>
-            We never sell your personal data. We may share information only with:
-          </p>
-          <ul className="list-disc list-inside mt-2 mb-4">
-            <li>
-              Healthcare providers you consult with, solely for the purpose of
-              delivering care.
-            </li>
-            <li>
-              Razorpay (our payment gateway) to process transactions securely.
-            </li>
-            <li>
-              Trusted third‑party service providers (hosting, analytics, CRM)
-              under strict data‑protection agreements.
-            </li>
-            <li>
-              Legal authorities when required by law or to protect vital interests.
-            </li>
-          </ul>
-
-          <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">4. Data Security</h2>
-          <p>
-            We employ industry‑standard technical and organizational measures,
-            including end‑to‑end encryption for video calls, encrypted storage
-            for health records, regular security audits, and role‑based access
-            controls. All data is hosted on ISO‑27001 certified cloud infrastructure.
+            To facilitate the buying and selling process, we share necessary information (such as shipping address and name) with the specific buyer or seller you are transacting with. We may also share data with trusted third-party service providers (like logistics partners and payment processors) who assist us in operating our platform.
           </p>
 
-          <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">5. Your Rights</h2>
+          <h3 className="text-xl font-semibold text-gray-800 mt-6 mb-3">4. Security</h3>
           <p>
-            Depending on your jurisdiction, you may have the right to:
-          </p>
-          <ul className="list-disc list-inside mt-2 mb-4">
-            <li>Access, correct, or delete your personal data.</li>
-            <li>Restrict or object to certain processing activities.</li>
-            <li>Receive a copy of your data in a portable format.</li>
-            <li>Withdraw consent where processing is based on consent.</li>
-          </ul>
-          <p className="mt-2">
-            To exercise any of these rights, please contact us at
-            <a href="mailto:support@jeevora.com" className="text-primary-600 underline">
-              support@jeevora.com
-            </a>.
+            We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. However, remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable.
           </p>
 
-          <h2 className="text-xl font-semibold text-gray-800 mt-6 mb-2">6. Changes to This Policy</h2>
-          <p>
-            We may update this Privacy Policy from time to time. The effective
-            date at the top reflects the most recent revision. Continued use of
-            the Jeevora platform after changes constitutes acceptance.
-          </p>
-
-          <p className="mt-6">
-            If you have any questions or concerns, please reach out to our
-            Data Protection Officer at
-            <a href="mailto:privacy@jeevora.com" className="text-primary-600 underline">
-              privacy@jeevora.com
-            </a>.
+          <p className="mt-8">
+            If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us at dev1604karan@gmail.com.
           </p>
         </div>
       </div>
