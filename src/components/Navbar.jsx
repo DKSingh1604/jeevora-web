@@ -12,9 +12,7 @@ export default function Navbar() {
           {/* Logo / Brand */}
           <div className="flex flex-shrink-0 items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <span className="h-8 w-8 flex items-center justify-center bg-primary-500 text-white rounded-full">
-                J
-              </span>
+              <img src="/jeevora_logo.png" alt="Jeevora Logo" className="h-8 w-auto" />
               <span className="self-center text-xl font-semibold whitespace-nowrap text-primary-600">
                 Jeevora
               </span>
